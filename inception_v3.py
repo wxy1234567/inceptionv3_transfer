@@ -15,14 +15,14 @@ JPEG_DATA_TENSOR_NAME = 'DecodeJpeg/contents:0'
 MODEL_DIR = './inception_dec_2015'
 MODEL_FILE= 'tensorflow_inception_graph.pb'
 
-CACHE_DIR = './log'
+CACHE_DIR = './tmp'
 INPUT_DATA = './flower_photos'
 
 VALIDATION_PERCENTAGE = 10
 TEST_PERCENTAGE = 10
 
 LEARNING_RATE = 0.01
-STEPS = 3000
+STEPS = 20000
 BATCH = 100
 
 
