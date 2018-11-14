@@ -15,8 +15,8 @@ JPEG_DATA_TENSOR_NAME = 'DecodeJpeg/contents:0'
 MODEL_DIR = './inception_dec_2015'
 MODEL_FILE= 'tensorflow_inception_graph.pb'
 
-CACHE_DIR = './log1'
-INPUT_DATA = './other'
+CACHE_DIR = './log'
+INPUT_DATA = './flower_photos'
 
 VALIDATION_PERCENTAGE = 10
 TEST_PERCENTAGE = 10
